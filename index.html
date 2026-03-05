@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Concurrent Ticket Booking System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="terminal">
+
+<div class="lights">
+<span class="red"></span>
+<span class="yellow"></span>
+<span class="green"></span>
+</div>
+
+<pre id="output"></pre>
+
+<div class="controls">
+<input type="number" id="tickets" placeholder="Enter number of tickets">
+<button onclick="bookTicket()">Book Ticket</button>
+<button onclick="simulateLoad()">Simulate Concurrent Booking</button>
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
